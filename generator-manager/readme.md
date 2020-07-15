@@ -2,6 +2,7 @@
 ----
 ### Author
 *BenCo#2544*
+
 ![Made by BenCo](https://i.imgur.com/gG2GDMos.png "Made by BenCo")
 ---
 ### Requirements
@@ -19,6 +20,7 @@ If you have priority generators set, they will be used like the following exampl
 
 You can also optionally define an override button and lever. The button is used to enable override and the lever sets the power usage/production. It is a 1:1 ratio, so if you set the lever to 90%, it will generate 90% of total power capacity, whilst still attempting to use Priority Generators where available as described above.
 Note, using override can cause power outages which  will require a manual generator restart if the set power level is too low to maintain batteries. Caution is advised when taking manual control to ensure battery levels, or to resume script activity before power is lost.
+
 ---
 ### Instructions
 ##### Core
