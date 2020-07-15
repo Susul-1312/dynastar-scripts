@@ -1,8 +1,0 @@
-PG = 1 G  = 1
-R=(PG/(PG+G))*100
-Power=(:StoredBatteryPower/:MaxBatteryPower)*100
-TCalc=(1000/(Power-109))+109
-if :Override = 1 then T = :OverrideAmount else T = TCalc end
-if T<=R then :G=0 else :G=((T-R)/(100-R))*100 end
-if T<=R then :P=(T/R)*100 else :P=100 end
-goto 3
